@@ -1,0 +1,30 @@
+.footer
+  background-color: lighten($grayish-blue, 30%)
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 4rem
+
+  &__social
+    display: flex
+
+    & img 
+      margin: 0 2rem
+
+  &__list
+    display: grid
+    grid-template-columns: repeat(1, 1fr)
+    justify-items: center
+    margin-top: 4rem
+
+    &-item
+      list-style: none
+      margin-bottom: 4rem
+
+      &-link
+        color: $dark-grayish-blue
+        text-decoration: none
+
+        &:hover
+          color: $strong-cyan
+    

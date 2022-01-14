@@ -1,0 +1,30 @@
+.btn
+  border: none
+  background: red
+  color: #fff
+  cursor: pointer
+  border-radius: 30px
+  font-weight: bold
+  padding: 1.8rem 5rem
+
+  &-group
+    display: flex
+    flex-direction: column
+    padding: 4rem
+    width: 350px
+    margin: auto
+
+  &-green
+    background: $strong-cyan
+    border-bottom: 4px solid darken($strong-cyan, 5%)
+
+    &:hover
+      background: lighten($strong-cyan, 5%)
+
+  &-blue
+    background: $light-blue
+    border-bottom: 4px solid darken($light-blue, 5%)
+    margin-top: 3rem
+
+    &:hover
+      background: lighten($light-blue, 5%)
